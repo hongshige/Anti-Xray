@@ -1,0 +1,8 @@
+name: Anti-Xray
+main: net.felixkraus.AntiXray.AntiXray
+version: 1.0
+author: xilefkfelix
+commands:
+  xlu:
+    usage: /xlu <name> <days>
+    permission: antixray.use

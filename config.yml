@@ -1,0 +1,15 @@
+#Anti-Xray Config
+
+#can be sqlite or mysql
+storageType: "sqlite"
+
+
+#mysql connection information
+#only needed if storageType is set to mysql
+mysql:
+  table_prefix: "ax_"
+  server: "localhost"
+  port: "3306"
+  database: "db"
+  username: "user"
+  password: "pass"
