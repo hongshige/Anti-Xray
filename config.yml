@@ -1,13 +1,11 @@
 #Anti-Xray Config
 
-#can be sqlite or mysql
+#Possible storage types: sqlite (default), mysql
 storageType: "sqlite"
 
-
-#mysql connection information
-#only needed if storageType is set to mysql
+#MySQL settings
+#This part of the config is only neede if storageType is set to 'mysql'
 mysql:
-  table_prefix: "ax_"
   server: "localhost"
   port: "3306"
   database: "db"
