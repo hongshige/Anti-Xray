@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a22c250-1b94-481a-b9f0-2391650cf1ce" name="Default" comment="">
+    <list default="true" id="6a22c250-1b94-481a-b9f0-2391650cf1ce" name="Default" comment="Initial commit&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java" afterPath="$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Anti-Xray.iws" />
@@ -68,12 +68,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AntiXray.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AntiXray.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1875">
+            <state line="70" column="15" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.33333334" vertical-offset="795" max-vertical-offset="2205">
               <folding>
-                <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
+                <element signature="e#1224#1657#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+                <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
               </folding>
             </state>
           </provider>
@@ -82,7 +85,7 @@
       <file leaf-file-name="CommandListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/CommandListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="28" selection-start="4357" selection-end="4357" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="2190">
+            <state line="37" column="67" selection-start="1015" selection-end="1056" vertical-scroll-proportion="-10.074074" vertical-offset="283" max-vertical-offset="2190">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +96,7 @@
       <file leaf-file-name="BreakListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/BreakListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="69" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+            <state line="43" column="70" selection-start="1317" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1215">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1888#2142#0" expanded="true" />
@@ -114,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.06430868" vertical-offset="0" max-vertical-offset="933">
+            <state line="14" column="107" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -137,17 +140,37 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/net/felixkraus/AntiXray/config.yml" />
-        <option value="$PROJECT_DIR$/src/net/felixkraus/AntiXray/CommandListener.java" />
-        <option value="$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java" />
         <option value="$PROJECT_DIR$/src/net/felixkraus/AntiXray/BreakListener.java" />
         <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/net/felixkraus/AntiXray/CommandListener.java" />
         <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="x" value="958" />
+    <option name="width" value="964" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -488,15 +511,20 @@
       <created>1395217780632</created>
       <updated>1395217780632</updated>
       <workItem from="1395407044272" duration="1083000" />
-      <workItem from="1395414079547" duration="21505000" />
+      <workItem from="1395414079547" duration="25878000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1395444214175</created>
+      <updated>1395444214175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22588000" />
+    <option name="totallyTimeSpent" value="26961000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1055" extended-state="0" />
+    <frame x="958" y="0" width="964" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -508,17 +536,17 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14002089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27974948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -539,6 +567,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -552,7 +582,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="22" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1650">
           <folding>
-            <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
+            <element signature="e#1224#1657#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+            <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
           </folding>
         </state>
       </provider>
@@ -588,7 +621,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="22" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
           <folding>
-            <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
+            <element signature="e#1224#1657#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+            <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
           </folding>
         </state>
       </provider>
@@ -624,7 +660,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="22" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1650">
           <folding>
-            <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
+            <element signature="e#1224#1657#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+            <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
           </folding>
         </state>
       </provider>
@@ -660,7 +699,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="62" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1665">
           <folding>
-            <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
+            <element signature="e#1224#1657#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+            <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
           </folding>
         </state>
       </provider>
@@ -696,7 +738,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="8" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1350">
           <folding>
-            <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
+            <element signature="e#1224#1657#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+            <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
           </folding>
         </state>
       </provider>
@@ -735,18 +780,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1875">
-          <folding>
-            <marker date="1395442501741" expanded="true" signature="1240:1348" placeholder="CREATE TABLE..IF..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/CommandListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="28" selection-start="4357" selection-end="4357" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="2190">
+        <state line="37" column="67" selection-start="1015" selection-end="1056" vertical-scroll-proportion="-10.074074" vertical-offset="283" max-vertical-offset="2190">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -755,7 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/BreakListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="69" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+        <state line="43" column="70" selection-start="1317" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1215">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1888#2142#0" expanded="true" />
@@ -775,8 +811,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.06430868" vertical-offset="0" max-vertical-offset="933">
+        <state line="14" column="107" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/felixkraus/AntiXray/AntiXray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="15" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.33333334" vertical-offset="795" max-vertical-offset="2205">
+          <folding>
+            <element signature="e#1224#1657#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <marker date="1395448836545" expanded="true" signature="1151:1187" placeholder="DELETE FROM ..." />
+            <marker date="1395448836545" expanded="true" signature="2048:2156" placeholder="CREATE TABLE..IF..." />
+          </folding>
         </state>
       </provider>
     </entry>

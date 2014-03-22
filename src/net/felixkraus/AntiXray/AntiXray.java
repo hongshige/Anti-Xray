@@ -4,10 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 /**
  * Created by felix on 19.03.14.
@@ -31,11 +28,33 @@ public class AntiXray extends JavaPlugin {
         else{
             prepareStatement();
             createTable();
+            deleteOldData();
             new BreakListener(this);
             cmdListener = new CommandListener(this);
         }
     }
 
+    private void deleteOldData() {
+        int keepData = getConfig().getInt("keepData");
+        if(keepData != -1){
+            int time = (int)(System.currentTimeMillis() / 1000L) - keepData * 24 * 60 * 60;
+            String timeSt = String.valueOf(time);
+            sql = "DELETE FROM ax_storage WHERE Time < "+timeSt;
+            Runnable run = new Runnable() {
+                @Override
+                public void run() {
+                    int cleaned = 0;
+                    try {
+                        cleaned = st.executeUpdate(sql);
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("[Anti-Xray] Cleaned "+cleaned+" rows of data!");
+                }
+            };
+            getServer().getScheduler().runTaskAsynchronously(this, run);
+        }
+    }
 
 
     private void prepareStatement() {
