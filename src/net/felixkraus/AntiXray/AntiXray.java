@@ -3,7 +3,9 @@ package net.felixkraus.AntiXray;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.mcstats.MetricsLite;
 
+import java.io.IOException;
 import java.sql.*;
 
 /**
@@ -19,6 +21,11 @@ public class AntiXray extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        try {
+            MetricsLite metrics = new MetricsLite(this);
+            metrics.start();
+        } catch (IOException e) {
+        }
         saveDefaultConfig();
         if(!openConnection()){
             System.err.println("[Anti-Xray] [Error] Can't connect to database!");
