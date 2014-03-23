@@ -14,3 +14,6 @@ mysql:
 
 #Number of days to store the data. Set to '-1' to keep the data for ever, set to '0' to clear the database!
 keepData: 365
+
+#Do you want the plugin to collect anonymous usage data?
+useMetrics: true

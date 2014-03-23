@@ -21,12 +21,21 @@ public class AntiXray extends JavaPlugin {
 
     @Override
     public void onEnable(){
-        try {
-            MetricsLite metrics = new MetricsLite(this);
-            metrics.start();
-        } catch (IOException e) {
-        }
+
+        getConfig().options().copyDefaults(true);
         saveDefaultConfig();
+
+        if(!getConfig().isSet("useMetrics")){
+            getConfig().set("useMetrics", true);
+            saveConfig();
+        }
+        if(getConfig().getBoolean("useMetrics")){
+            try {
+                MetricsLite metrics = new MetricsLite(this);
+                metrics.start();
+            } catch (IOException e) {
+            }
+        }
         if(!openConnection()){
             System.err.println("[Anti-Xray] [Error] Can't connect to database!");
             getServer().getPluginManager().disablePlugin(this);
