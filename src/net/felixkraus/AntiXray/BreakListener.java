@@ -39,6 +39,8 @@ public class BreakListener implements Listener {
             case REDSTONE_ORE: id = 73; break;
             case GLOWING_REDSTONE_ORE: id = 74; break;
             case EMERALD_ORE: id = 129; break;
+            case ANCIENT_DEBRIS: id = 526; break;   /*
+
             default: id = -1; break;
         }
         int unixtimestamp = (int)(System.currentTimeMillis() / 1000L);
