@@ -1,6 +1,6 @@
-name: Anti-Xray
+name: Anti-Xray Reload
 main: net.felixkraus.AntiXray.AntiXray
-version: 1.1
+version: 1.2
 author: xilefkfelix
 commands:
   xlu:
